@@ -4,6 +4,12 @@
   min-height: 50px;
 }
 
+.debug-2 {
+  background-color: rgba(0, 0, 255, 0.3);
+  border: 1px solid black;
+  min-height: 50px;
+}
+
 header {
   height: 90px;
 }
