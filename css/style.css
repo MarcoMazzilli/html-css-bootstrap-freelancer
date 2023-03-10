@@ -1,0 +1,13 @@
+.debug {
+  background-color: rgba(0, 255, 0, 0.3);
+  border: 1px solid black;
+  min-height: 50px;
+}
+
+header {
+  height: 90px;
+}
+
+.mm-jumbotron {
+  height: 600px;
+}
