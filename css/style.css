@@ -17,3 +17,6 @@ header {
 .mm-jumbotron {
   height: 600px;
 }
+body {
+  padding-bottom: 200px;
+}
