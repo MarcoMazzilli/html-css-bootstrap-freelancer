@@ -10,13 +10,24 @@
   min-height: 50px;
 }
 
+.debug-3 {
+  background-color: rgba(255, 0, 0, 0.3);
+  border: 1px solid black;
+  min-height: 50px;
+}
+
 header {
   height: 90px;
+  background-color: #2C3E50;
 }
 
 .mm-jumbotron {
   height: 600px;
+  /* background-color: #1ABC9C; */
 }
-body {
-  padding-bottom: 200px;
+
+.mm-card {
+  background-color: coral;
+  min-height: 350px;
+  margin: 0 auto;
 }
