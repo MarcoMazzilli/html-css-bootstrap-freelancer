@@ -77,3 +77,23 @@ header {
 #about-us {
   background-color: var(--main-green);
 }
+
+/* FORM STYLE */
+
+
+.mm-form input,
+.mm-form textarea {
+border: none;
+border-radius: 0px;
+border-bottom: 1px solid lightgrey;
+}
+
+.mm-form input::placeholder,
+.mm-form textarea::placeholder {
+  color: black;
+}
+
+.mm-form button {
+  background-color: var(--main-green);
+  border: none;
+}
