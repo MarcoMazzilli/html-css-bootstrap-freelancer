@@ -32,13 +32,15 @@ img {
 
 /* /star and line */
 
+.highlighter {
+  color: var(--main-green);
+}
 
 /* generic rules */
 
 .debug {
   background-color: rgba(0, 255, 0, 0.3);
   border: 1px solid black;
-  min-height: 50px;
 }
 
 .debug-2 {
@@ -96,4 +98,32 @@ border-bottom: 1px solid lightgrey;
 .mm-form button {
   background-color: var(--main-green);
   border: none;
+}
+
+/* FOOTER STYLE */
+
+#contact-and-social {
+  background-color: var(--main-light-blue);
+}
+
+#contact-and-social ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+#contact-and-social ul li a i {
+  border-radius: 50%;
+  padding: 20px;
+  border: 1px solid white;
+  color: white;
+}
+
+#copiright {
+  background-color: var(--main-blue);
+}
+
+.copiright.container {
+  margin: 0px auto;
+  height: 50px;
 }
