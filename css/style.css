@@ -4,6 +4,37 @@
   --main-green:rgb(26, 188, 156) ;
 }
 
+img {
+  max-width: 100%;
+}
+
+/* star and line */
+
+.star .line {
+  height: 100%;
+  width: 20%;
+  border: 2px solid white;
+  padding: none;
+}
+.star i {
+  color: white;
+}
+
+.star-dark .line-dark {
+  height: 100%;
+  width: 20%;
+  border: 2px solid var(--main-blue);
+  padding: none;
+}
+.star-dark i {
+  color: var(--main-blue);
+}
+
+/* /star and line */
+
+
+/* generic rules */
+
 .debug {
   background-color: rgba(0, 255, 0, 0.3);
   border: 1px solid black;
@@ -29,13 +60,16 @@ header {
   background-color: #2C3E50;
 }
 
+/* JUMBOTRON */
+
 .mm-jumbotron {
-  height: 600px;
-  /* background-color: #1ABC9C; */
+  background-color: var(--main-green);
 }
 
-.mm-card {
-  background-color: coral;
-  min-height: 350px;
-  margin: 0 auto;
+.mm-jumbotron img {
+  width: 250px;
 }
+
+/* /JUMBOTRON */
+
+/* MAIN PORTFOLIO */
