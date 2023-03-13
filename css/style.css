@@ -72,4 +72,8 @@ header {
 
 /* /JUMBOTRON */
 
-/* MAIN PORTFOLIO */
+/* MAIN SECTION ABOUT */
+
+#about-us {
+  background-color: var(--main-green);
+}
