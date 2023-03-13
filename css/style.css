@@ -1,3 +1,9 @@
+:root {
+  --main-blue:rgb(44, 62, 80);
+  --main-light-blue:rgb(58, 84, 109);
+  --main-green:rgb(26, 188, 156) ;
+}
+
 .debug {
   background-color: rgba(0, 255, 0, 0.3);
   border: 1px solid black;
@@ -15,6 +21,8 @@
   border: 1px solid black;
   min-height: 50px;
 }
+
+/* utilities */
 
 header {
   height: 90px;
